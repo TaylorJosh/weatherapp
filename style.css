@@ -1,0 +1,108 @@
+header{
+    color: white;
+    font-size: 250%;
+    font-family: 'Josefin Slab', serif;
+    }
+
+
+
+body {
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+        width: 100%;
+    margin: 0;
+    font-family: 'Wire One', sans-serif;
+    background: #222;
+    font-size: 100%;
+}
+
+.date-scale{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#container {
+    background: #00000096;
+    color: white;
+    padding: 1em;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 40%;
+    margin: 1em;
+}
+
+#searchButton {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 25px;
+    width: 25px;
+    outline: none;
+    background: #ffffff;
+    color: white;
+    cursor: pointer;
+        }
+
+#searchButton:hover {
+    background: #60acf3d5;
+}
+
+.temperatures{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.city{
+    font-size: 250%;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+input.searchBar {
+    border: none;
+    outline: none;
+    padding: 0.4em 1em;
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.575);
+    color: black;
+    font-family: 'Josefin Slab', serif;
+    font-size: 150%;
+    width: calc(100% - 100px);
+  }
+
+  .temp-button:hover {
+    background: #000000d5;
+    color: white;
+}
+
+.temp-button {  
+    
+    border-radius: 50%;
+    border: none;
+    height: 25px;
+    width: 25px;
+    outline: none;
+    background: #ffffff;
+    color: black;
+    cursor: pointer;
+         
+     }
+
+.weatherDetails{ 
+    font-size: 130%;
+    line-height: 130%;
+       }
+
+
+
+
+
+    
