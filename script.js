@@ -22,7 +22,7 @@ let weather = {
       const { temp, humidity, temp_min, temp_max } = data.main;
       const { speed } = data.wind;
       document.querySelector(".date").innerText = new Date().toDateString();
-      document.querySelector(".city").innerText = "Weather in " + name;
+      document.querySelector(".city").innerText = "Current Weather in " + name;
       document.querySelector(".icon").src =
         "https://openweathermap.org/img/wn/" + icon + ".png";
       document.querySelector(".description").innerText = description;
